@@ -31,6 +31,15 @@ nav a {
     font-weight: bold;
 }
 
+.cookie {
+    display: none;
+    position: absolute;
+    width: 200px;
+    right: 30%;
+    top: -10px;
+    z-index: -1;
+}
+
 .quote-icon {
     color: #6366f1;
 }
@@ -164,6 +173,9 @@ nav a {
 }
 
 @media (max-width: 600px) {
+    .cookie {
+        display: inline;
+    }
     .quote-box .quote .quote-text {
         font-size: 20px;
         font-weight: normal;
